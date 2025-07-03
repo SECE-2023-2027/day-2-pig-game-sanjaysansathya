@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pig Game UI</title>
+  <link rel="stylesheet" href="game.css" />
+</head>
+
+<body>
+  <main class="game">
+    <button class="btn btn--new">🔄 NEW&nbsp;GAME</button>
+    <section class="player player--0 player--active">
+      <h2 class="name">PLAYER&nbsp;1</h2>
+      <p class="score" id="score--0">0</p>
+
+      <div class="current">
+        <span class="current-label">CURRENT</span>
+        <span class="current-score" id="current--0">0</span>
+      </div>
+<div class="roll-dice">
+      <button class="btn btn--roll">🎲 ROLL DICE</button>
+      <button class="btn btn--hold">📥 HOLD</button>
+</div>
+    </section>
+ <img class="dice" alt="Playing dice" />
+    <section class="player player--1">
+      <h2 class="name">PLAYER&nbsp;2</h2>
+      <p class="score" id="score--1">0</p>
+
+      <div class="current">
+        <span class="current-label">CURRENT</span>
+        <span class="current-score" id="current--1">0</span>
+      </div>
+
+    </section>
+  </main>
+
+<script src="game.js"></script>
+
+</body>
+</html>
