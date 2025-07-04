@@ -102,10 +102,9 @@ flex-direction: column;
 
 .dice {
   position: absolute;
-  /* exactly centre the image */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 110px;         /* tweak size if you like */
-  display: none;        /* stay hidden until the first roll */
+  width: 110px;       
+  display: none;        
 }
